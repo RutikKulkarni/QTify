@@ -1,1 +1,1 @@
-# L-square-QTify
+# QTify
