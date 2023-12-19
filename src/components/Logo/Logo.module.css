@@ -3,4 +3,8 @@
 	cursor: pointer;
     display: flex;
     align-items: center;
+    width: 67px;
+    height: 34px;
+    top: 20px;
+    left: 32px;
 }
