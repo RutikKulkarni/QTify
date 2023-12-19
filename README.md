@@ -1,2 +1,2 @@
 # QTify
-### lINK: https://qtify-eta.vercel.app/
+### LINK: https://qtify-eta.vercel.app/
