@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+// import Hero from "./components/Hero/Hero";
 import { StyledEngineProvider } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import { fetchNewAlbums, fetchSongs, fetchTopAlbums } from "./Api/Api";
 
 function App() {
   const [searchData, useSearchData] = useState();
-  const [data, setdata] = useState({});
+  const [data, setData] = useState({});
 
-  const generatData = (key, source) => {
+  const generateData = (key, source) => {
     source().then((data) => {
-      setdata((prevData) => {
+      setData((prevData) => {
         return {
           ...prevData,
           [key]: data,
@@ -21,13 +21,11 @@ function App() {
   };
 
   useEffect(() => {
-    generatData("topAlbums", fetchTopAlbums);
-    generatData("newAlbums", fetchNewAlbums);
-    generatData("songs", fetchSongs);
+    generateData("topAlbums", fetchTopAlbums);
+    generateData("newAlbums", fetchNewAlbums);
+    generateData("songs", fetchSongs);
   }, []);
-
   const { topAlbums = [], newAlbums = [], songs = [] } = data;
-
   return (
     <>
       {/* <Navbar searchData={""}/> 
