@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
+import styles from "./Carousel.module.css";
+import "swiper/css";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import styles from "./Carousel.module.css";
-// Import Swiper styles
-import "swiper/css";
-import LeftBtn from "./LeftBtn/LeftBtn";
-import RightBtn from "./RightBtn/RightBtn";
+import LeftArrowButton from "./LeftArrowButton/LeftArrowButton";
+import RightArrowButton from "./RightArrowButton/RightArrowButton";
 
 const Controls = ({ data }) => {
   const swiper = useSwiper();
@@ -27,8 +26,8 @@ function Carousel({ data, renderComponent }) {
         allowTouchMove
       >
         <Controls data={data} />
-        <RightBtn />
-        <LeftBtn />
+        <RightArrowButton />
+        <LeftArrowButton />
         {data.map((ele) => (
           <SwiperSlide>{renderComponent(ele)}</SwiperSlide>
         ))}
