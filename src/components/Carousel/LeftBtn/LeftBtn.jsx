@@ -14,7 +14,7 @@ function LeftBtn() {
     }, []);
 
     return (
-        <div className={styles.leftNavigation}>
+        <div className={styles.btn}>
             {!isBeginning && <LeftArrow onClick={() => swiper.slidePrev()} />}
         </div>
     )

@@ -14,7 +14,7 @@ function RightBtn() {
     }, []);
 
     return (
-        <div className={styles.rightNavigation}>
+        <div className={styles.btn}>
             {!isEnd && <RightArrow onClick={() => swiper.slideNext()} />}
         </div>
     )

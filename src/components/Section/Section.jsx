@@ -30,10 +30,10 @@ function Section({ title, data, type }) {
             </div>
           ) : (
             <Carousel
-                data={data}
-                renderComponent={(data) => <Card data={data} type={type} />}
+              data={data}
+              renderComponent={(data) => <Card data={data} type={type} />}
             />
-        )}
+          )}
         </div>
       )}
     </div>
