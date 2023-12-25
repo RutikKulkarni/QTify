@@ -3,8 +3,8 @@ import styles from "./Carousel.module.css";
 import "swiper/css";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import LeftArrowButton from "./LeftArrowButton/LeftArrowButton";
-import RightArrowButton from "./RightArrowButton/RightArrowButton";
+import LeftArrowButton from "./LeftNavigationButton/LeftArrowButton";
+import RightArrowButton from "./RightNavigationButton/RightArrowButton";
 
 const Controls = ({ data }) => {
   const swiper = useSwiper();
@@ -18,11 +18,11 @@ function Carousel({ data, renderComponent }) {
   return (
     <div className={styles.wrapper}>
       <Swiper
-        style={{ padding: "0px 20px" }}
         initialSlide={0}
         modules={[Navigation]}
-        spaceBetween={40}
+        spaceBetween={10}
         slidesPerView={"auto"}
+        style={{ padding: "0px 10px" }}
         allowTouchMove
       >
         <Controls data={data} />

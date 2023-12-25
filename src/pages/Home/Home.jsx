@@ -7,7 +7,6 @@ import Hero from "../../components/Hero/Hero";
 function Home({}) {
   const { data } = useOutletContext();
   const { topAlbums, newAlbums, songs } = data;
-
   return (
     <>
       <Hero />
