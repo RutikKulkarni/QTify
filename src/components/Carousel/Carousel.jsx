@@ -22,7 +22,7 @@ function Carousel({ data, renderComponent }) {
         modules={[Navigation]}
         spaceBetween={10}
         slidesPerView={"auto"}
-        style={{ padding: "0px 10px" }}
+        style={{ padding: "0px 20px" }}
         allowTouchMove
       >
         <Controls data={data} />
