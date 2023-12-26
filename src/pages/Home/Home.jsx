@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import Section from "../../components/Section/Section";
 import styles from "./Home.module.css";
 import Hero from "../../components/Hero/Hero";
+import { fetchFilters } from "../../Api/Api";
 
 function Home({}) {
   const { data } = useOutletContext();
@@ -13,7 +14,7 @@ function Home({}) {
       <div className={styles.wrapper}>
         <Section title="Top Albums" data={topAlbums} type="album" />
         <Section title="New Albums" data={newAlbums} type="album" />
-        {/* <Section title="Songs" data={songs} type="song" /> */}
+        <Section title="Songs" data={songs} filterSource={fetchFilters} type="song" />
       </div>
     </>
   );
