@@ -8,10 +8,9 @@ QTify is an immersive music browsing web application that I meticulously designe
 
 - **Live Demo:** [QTify](https://qtify-eta.vercel.app/)
 - **API Endpoint:** [QTify API](https://qtify-backend-labs.crio.do)
-<!-- **API Endpoint:** [QTify API](https://qtify-backend-labs.crio.do/albums/top) -->
 - **Figma Design:** [Figma - QTify](https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?node-id=0%3A1&t=GMb9Y0CUdeGCH7vD-0)
 - **Project Components:** [Project Components](https://bit.ly/3JuriLZ)
-
+<!-- **API Endpoint:** [QTify API](https://qtify-backend-labs.crio.do/albums/top) -->
 ## Features
 
 1. **Top Albums Display:** The application fetches and showcases top albums dynamically from the provided API endpoint.
