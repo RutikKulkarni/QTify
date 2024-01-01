@@ -1,19 +1,36 @@
 # QTify
 
-Link: [https://qtify-eta.vercel.app/](https://qtify-eta.vercel.app/)
+## Overview
 
-## Description
+QTify is an immersive music browsing web application that I meticulously designed, bringing the Figma concept to life. This engaging platform features a meticulously crafted UI, including a captivating Navbar and Hero Section. The application seamlessly integrates various functionalities, such as displaying top albums, implementing a collapsible card grid to carousel transition, and introducing a genre-based song filter.
 
-QTify is an engaging music browsing web application with a crafted UI based on Figma design. The application features a captivating Navbar and Hero Section, seamless integration of top albums display, a collapsible card grid to carousel transition, and a genre-based song filter. Additional modules include a compelling Hero Section, dynamic card grid with a collapsible carousel, and an enhanced user experience through genre-based song filtering.
+## Project Links
 
-## API
+- **Live Demo:** [QTify](https://qtify-eta.vercel.app/)
+- **API Endpoint:** [QTify API](https://qtify-backend-labs.crio.do)
+<!-- **API Endpoint:** [QTify API](https://qtify-backend-labs.crio.do/albums/top) -->
+- **Figma Design:** [Figma - QTify](https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?node-id=0%3A1&t=GMb9Y0CUdeGCH7vD-0)
+- **Project Components:** [Project Components](https://bit.ly/3JuriLZ)
 
-[https://qtify-backend-labs.crio.do/albums/top](https://qtify-backend-labs.crio.do/albums/top)
+## Features
 
-## Figma Design
+1. **Top Albums Display:** The application fetches and showcases top albums dynamically from the provided API endpoint.
+2. **Collapsible Card Grid:** A dynamic card grid seamlessly transitions into a carousel for an enhanced user experience.
+3. **Genre-Based Song Filtering:** Users can filter songs based on genres, adding a personalized touch to their music exploration.
 
-[https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?node-id=0%3A1&t=GMb9Y0CUdeGCH7vD-0](https://www.figma.com/file/tuCV26ozM1R75Ze6ShZxKs/Qtify?node-id=0%3A1&t=GMb9Y0CUdeGCH7vD-0)
+## Development
 
-## Project Components
+- **Frontend:** Crafted with attention to detail, the frontend ensures a visually appealing and user-friendly interface.
+- **Backend:** Utilizes the provided API endpoint to fetch and display top albums dynamically.
 
-[https://bit.ly/3JuriLZ](https://bit.ly/3JuriLZ)
+## How to Run Locally
+
+To run QTify locally, follow these steps:
+
+1. Clone the repository: `git clone [[repository-url]](https://github.com/RutikKulkarni/QTify.git)`
+2. Navigate to the project directory: `cd [project-directory]`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
+
+*Note: Ensure that you have the necessary dependencies and a stable internet connection to run the application successfully.*
+
