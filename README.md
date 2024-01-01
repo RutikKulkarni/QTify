@@ -26,7 +26,7 @@ QTify is an immersive music browsing web application that I meticulously designe
 
 To run QTify locally, follow these steps:
 
-1. Clone the repository: `git clone [[repository-url]](https://github.com/RutikKulkarni/QTify.git)`
+1. Clone the repository: `git clone https://github.com/RutikKulkarni/QTify.git`
 2. Navigate to the project directory: `cd [project-directory]`
 3. Install dependencies: `npm install`
 4. Start the application: `npm start`
